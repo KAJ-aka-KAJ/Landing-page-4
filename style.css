@@ -5,6 +5,22 @@
   box-sizing: border-box;
 }
 
+.header,
+.hero,
+.about, 
+.services, 
+.why-choose-us,
+.testimonials,
+.contact, 
+.footer{
+  max-width: 1200px; /* This can cause content to “shrink” on zoom */
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2.5rem; /* flexible padding */
+  padding-right: 2.5rem;
+}
+
 /* Header Container */
 .header {
   position: fixed;
