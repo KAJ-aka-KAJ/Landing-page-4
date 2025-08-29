@@ -582,6 +582,7 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 40px;
   justify-items: center;
+  align-items: stretch;
 }
 
 /* Testimonial Card */
